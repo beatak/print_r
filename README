@@ -14,3 +14,12 @@ console.log(print_r(a));
 //(object){
 //    foo:(number)1,
 //    bar:(function)function () {return 'hi';}}
+
+todo:
+=====
+
+* the way it handles array seems to be wrong.
+* write test.
+* tag the version.
+* is there a way to export functions into global easily?
+* is it better to spit to console.log() defaultly as in PHP?
