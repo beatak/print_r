@@ -1,0 +1,17 @@
+{
+  "author": "Takashi Mizohata <dev@nydd.org> (http://nydd.org/)",
+  "name": "print_r",
+  "description": "print recursive, PHP's favorite function, for node.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/beatak/print_r",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/beatak/print_r.git"
+  },
+  "main": "lib/print_r.js",
+  "engines": {
+    "node": "~v0.5.4"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
