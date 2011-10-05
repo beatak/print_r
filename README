@@ -3,14 +3,14 @@ JavaScript implementation of PHP's favorite function print_r()
 example:
 ========
 
-var print_r = require('print_r');
+var print_r = require('print_r').print_r;
 
 var a = {
   foo: 1,
-  bar: [1, 2, 3, 4]
+  bar: function () {return 'hi';}
 };
 
-print_r(a);
-//
-// 
-// 
+console.log(print_r(a));
+//(object){
+//    foo:(number)1,
+//    bar:(function)function () {return 'hi';}}
